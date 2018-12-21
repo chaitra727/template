@@ -1,0 +1,100 @@
+table.table_profile_image{
+    height: 70%;
+    width: 100%;
+    border-spacing: 30px;
+    border-color: white;
+    background-color: black;
+}
+image.profile-panel-img{
+    width: 100px;
+    height: 100px;
+    vertical-align: center;
+}
+table.table_profile_name{
+    height: 300px;
+    width: 400px;
+    margin-bottom:16px;
+    border-spacing:30px;
+    border-color:white;
+    background-color: black;
+}
+text.user-full-name{
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+}
+text.place{
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+    max-width: 100%;
+}
+table.skill-main-panel{
+    width: 80%;
+    margin:20px; 
+    background-color:#ffffff;
+    box-shadow:0 0 10px rgba(0,0,0,.25); 
+    padding:12px;
+}
+row.skill_row{
+    padding: 6px 5px;
+    height: 100%;
+    vertical-align: center;
+    width: 60%;
+}
+column.skill_column{
+    width: 30%;
+}
+text.skill_title{
+    font-size: 12px;
+    color: #757575;
+    font-family: sans-serif;
+}
+geometry_rect.geometry_box{
+    background-color: #ff6666;
+}
+text.geometry_rect_title{
+    padding: 6px 12px;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+bottom_line class.border-bottom{
+    border-bottom: 1px solid #ff6666;
+    width: 100%;
+}
+table.education_wrapper{
+    width: 100%;
+    padding-left: 100px;
+}
+geometry_circle.course_circle{
+
+}
+column.geometry_container{
+    width:5%;
+    padding: 2px;
+
+}
+text.course-title{
+    color: #000000;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+}
+text.course-college{
+
+}
+text.course-duration{
+    display: block;
+    font-size: 12px;
+    color: #000000;
+    font-family: sans-serif;
+}
+text.course-narration{
+    font-size: 13px;
+    color: #757575;
+    font-family: sans-serif;
+}
