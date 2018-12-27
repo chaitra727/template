@@ -6,6 +6,7 @@ var fetch_style_details=function(tag,id){
     var req_line=tag+'.'+id+'{',flag=0  
     var line=fs.readFileSync("lipsi.css");
     line=(line.toLocaleString()).split(/\n/g)
+    //console.log(req_line)
     for(var c=0;c<line.length;c++){
         lineCSS=line[c]
         if(flag==1&lineCSS!='}'){
@@ -19,8 +20,8 @@ var fetch_style_details=function(tag,id){
             flag=0;
             style_properties=style_properties.slice(0,style_properties.length-1)
             return (style_properties)
-         }
-     }
+        }
+    }
 };
 var get_element_properties=function(){
     if(res[i].endsWith('>'))
@@ -34,6 +35,7 @@ var get_element_properties=function(){
             if(res[j]=='id'|res[j]=='class'){
                 if(res[j+2].endsWith('/>')){
                     res[j+2]=res[j+2].slice(1,res[j+2].length-3)
+                    close_with_open=1;
                 }
                 else if(res[j+2].endsWith(">")){
                     res[j+2]=res[j+2].slice(1,res[j+2].length-2)

@@ -61,7 +61,7 @@ text.geometry_rect_title{
     color: #ffffff;
     font-family: sans-serif;
 }
-bottom_line class.border-bottom{
+bottom_line.border-bottom{
     border-bottom: 1px solid #ff6666;
     width: 100%;
 }
@@ -70,12 +70,10 @@ table.education_wrapper{
     padding-left: 100px;
 }
 geometry_circle.course_circle{
-
 }
 column.geometry_container{
     width:5%;
     padding: 2px;
-
 }
 text.course-title{
     color: #000000;
@@ -85,7 +83,6 @@ text.course-title{
     display: block;
 }
 text.course-college{
-
 }
 text.course-duration{
     display: block;
@@ -97,4 +94,8 @@ text.course-narration{
     font-size: 13px;
     color: #757575;
     font-family: sans-serif;
+}
+table.course-achievement-title{
+}
+text.course-university{
 }

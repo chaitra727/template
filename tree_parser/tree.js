@@ -21,7 +21,7 @@ class Tree
     insert(data,type) 
     { 
         var newNode = new Node(data,type); 
-        if(this.root === null) {
+        if(this.root === null){
             this.root = newNode;
             this.current=newNode;
             console.log("root node inserted sucessfuly") 
@@ -33,7 +33,7 @@ class Tree
     {
         if(node.num_child>0){
             var child=node.direction;
-            if(child[0].type==newNode.type){        //multiple child insertion
+            if(child[0].type==newNode.type|node.num_child>0){        //multiple child insertion
                 console.log("MULTIPLE CHILDS")
                 
                 var arr_str=child[0].data.match(/"element":{/)
@@ -54,12 +54,11 @@ class Tree
     }
     close_tag(node,data){
         if(node.type==data){
-            //node.data+="}"
             console.log("closing ",node.type," tag")
             this.current=node.previous
          }
         else
-            console.log("MISSING OPEN TAG OF",data)
+            console.log("MISSING OPEN TAG OF",data,node.type)
     } 
     // Performs preorder traversal of a tree 
     display_tree(node) 
@@ -91,7 +90,7 @@ class Tree
                     createStream.write('}')            //closing tags
                 this.writeToJson(node.direction[i]);
                 ht+=node.height;
-                console.log("HEIGHT OF NODE=",ht,node.type) 
+               // console.log("HEIGHT OF NODE=",ht,node.type) 
             }
         }
     }
