@@ -1,0 +1,56 @@
+newpath
+0 500 moveto
+0 500 lineto
+350 842 lineto
+0 842 lineto
+0 500 lineto
+closepath
+gsave
+1 0.9 0 setrgbcolor
+fill
+grestore
+0.9 0.9 0 setrgbcolor
+3 setlinewidth
+stroke
+grestore
+
+newpath
+0 0 moveto
+70 0 lineto
+70 565 lineto
+0 495 lineto
+0 0 lineto
+closepath
+gsave
+.96 0.96 0.96 setrgbcolor
+fill
+stroke
+grestore
+
+newpath
+400 570 moveto
+110 0 rlineto
+0 −80 rlineto
+closepath
+1 0.9 0 setrgbcolor
+stroke
+grestore
+
+/Helvetica findfont 12 scalefont setfont 122.88000000000001 798.72  moveto (I am a software ) show
+/Helvetica findfont 12 scalefont setfont 122.88000000000001 783.72  moveto (programmer with years ) show
+/Helvetica findfont 12 scalefont setfont 122.88000000000001 768.72  moveto (of experience I have ) show
+/Helvetica findfont 12 scalefont setfont 122.88000000000001 753.72  moveto (insider knowledge of ) show
+/Helvetica findfont 12 scalefont setfont 122.88000000000001 738.72  moveto (application stack for) show
+
+newpath
+102.4 718.72 moveto
+819.2 718.72 lineto
+819.2 819.2 lineto
+102.4 819.2 lineto
+102.4 718.72 lineto
+1 1 0 setrgbcolor
+1 setlinewidth
+stroke
+grestore
+showpage
+
