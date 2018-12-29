@@ -23,6 +23,52 @@ var fetch_style_details=function(tag,id){
         }
     }
 };
+get_row_data=function(text){
+    console.log(text)
+    var fs = require("fs");
+    var contents = fs.readFileSync("char_width.json");
+    var jsonContent = JSON.parse(contents);
+    var row_sum=0,starting_point=0;
+    var insert_text=[],line="";
+    for(var i=0;i<text.length;i++){
+        for(var c=0;c in jsonContent.special_char;c++){             //Till the end of json
+            if (text[i]==jsonContent.special_char[c].char){         //Text comparision with a character present in the char_width json file
+                if (( text[i-1] == ' ')){	//cheking for a white spaces
+                    row_sum=row_sum+2;			//adding 2 because of white space
+                    wp=i-1;
+                    line+=text.slice(starting_point,i)
+                    starting_point=i;
+                }	
+                row_sum=row_sum+parseInt(jsonContent.special_char[c].value, 10);			//adding letter value to the sum of the row
+                break;
+            }
+        }
+        if(row_sum>30||i+1>=text.length){
+            if(i+1>=text.length){	
+                //if last row
+                line+=text.slice(starting_point,i+1)
+                insert_text.push(line)
+                //console.log("HELLLLLLLLLO",insert_text)
+            }
+            else{
+                if(text[i+1]!=' '){	
+                    m=i-(wp);                    //i-whitespace pointer value
+                    i=i-m;	
+                }
+                else{
+                    i++;
+                }
+                row_sum=0;
+                insert_text.push(line)
+                console.log("HELLLLLLLLLO",insert_text,line)
+                line="";
+                starting_point=i;
+            }
+        }
+    }
+    data+=',"data":'+insert_text+'"';
+        console.log("HIIIIIIIII",insert_text)
+}
 var get_element_properties=function(){
     if(res[i].endsWith('>'))
         res[i]=res[i].slice(1,res[i].length-1)
@@ -62,9 +108,14 @@ var get_element_properties=function(){
         if(tag=="text"){
             var insert_line='"';
             for(r=i+1;r<res.length-1;r++){
+                console.log("hii")
                 insert_line=insert_line+" "+res[r];
             }
-            data+=',"data":'+insert_line+'"'
+            console.log(insert_line,res.length,r)
+            get_row_data(insert_line)
+            // data+=',"data":'+insert_line+'"'
+            //  var Row=require("./text_parser.js")
+            //  //var r = new Row();
             i=r-1;
         }
         else
