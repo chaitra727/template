@@ -1,13 +1,13 @@
 class Node 
 { 
-    constructor(data,type) 
+    constructor(data,type,height) 
     { 
         this.data = data; 
         this.type=type;
+        this.height=height;
         this.num_child=0;
         this.previous=null;
         this.direction=[];
-        this.height=0
     } 
 } 
 class Tree 
@@ -17,10 +17,11 @@ class Tree
         this.root = null; 
         this.current=null;
         this.child=null;
+        this.tree_height=0;
 	} 
-    insert(data,type) 
+    insert(data,type,height) 
     { 
-        var newNode = new Node(data,type); 
+        var newNode = new Node(data,type,height); 
         if(this.root === null){
             this.root = newNode;
             this.current=newNode;
@@ -48,9 +49,6 @@ class Tree
         node.direction[n]=newNode;
         this.current=newNode;
         console.log(newNode.type," inserted successfuly")
-        if(newNode.type=="text"){
-            newNode.height=3
-        }
     }
     close_tag(node,data){
         if(node.type==data){
@@ -90,18 +88,18 @@ class Tree
                     createStream.write('}')            //closing tags
                 this.writeToJson(node.direction[i]);
                 ht+=node.height;
-               // console.log("HEIGHT OF NODE=",ht,node.type) 
             }
         }
     }
-    heightTree(node){
+    calculate_heightTree(node){
         var i=0;
-        for(i=0;i<=node.num_child;i++) {
-            this.heightTree(node.direction[i]);
-            ht+=node.height;
+        for(i=0;i<node.num_child;i++) {
+            this.calculate_heightTree(node.direction[i]);
+            this.tree_height+=node.direction[i].height;
         }
-        console.log("HEIGHT OF TREE=",ht,node.type)
-        
+    }
+    get_height(){
+        return this.tree_height;
     }
     postorder(node) 
     { 

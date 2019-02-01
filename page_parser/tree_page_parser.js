@@ -32,12 +32,9 @@ function close_tag(){
             if(previous.type=="table"&&previous.opened_container>0){
                 if(current.previous.direction[current.previous.num_child-2].opened_container==1){
                     current.previous.direction[current.previous.num_child-2].data=current.previous.direction[current.previous.num_child-2].data.replace('"bottom":"true"', '"bottom":"false"');
-                    console.log("previous data=",current.previous.direction[current.previous.num_child-2].data)
                 }
                 current.data='{"visibility":{"top":"false","bottom":"true","left":"true","right":"true"},'+current.data.slice(1,current.data.length)
                 current.opened_container=1;
-                //console.log("NUMBER OF CHILD NODES FOR THE TABLE",current.previous.direction[current.previous.num_child-2].opened_container)
-
             }
             else if(current.previous.type=="table"&&previous.opened_container==0){
                 current.previous.data=current.previous.data.slice(0,current.previous.data.length-2)
@@ -66,7 +63,7 @@ function break_page(){
     //     console.log("HIIIIIIIII")
     // }   
 }
-for(i=1;i<data.length;i++){
+for(i=1;i<data.length;i++){11
     data[i]=data[i].trim()
     if((data[i].startsWith('"element":')|(data[i].startsWith('{')&i!=0))&tag!=""){
         if(!data[i-1].startsWith('"element":')){

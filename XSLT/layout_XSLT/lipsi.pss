@@ -1,8 +1,8 @@
 table.table_profile_image{
-    height: 70%;
+    height:70%;
     width: 100%;
-    border-spacing: 30px;
-    border-color: white;
+    border-spacing:30px;
+    border-color:white;
     background-color: black;
 }
 image.profile-panel-img{
@@ -11,7 +11,7 @@ image.profile-panel-img{
     vertical-align: center;
 }
 table.table_profile_name{
-    height: 300px;
+    height:300px;
     width: 400px;
     margin-bottom:16px;
     border-spacing:30px;
@@ -22,13 +22,13 @@ text.user-full-name{
     font-weight: bold;
     color: #ffffff;
     text-align: center;
-    font-family: sans-serif;
+    font-family: "SourceSansPro-Regular",sans-serif;
 }
 text.place{
     color: #ffffff;
     text-align: center;
     font-size: 12px;
-    font-family: sans-serif;
+    font-family: "SourceSansPro-Regular",sans-serif;
     max-width: 100%;
 }
 table.skill-main-panel{
@@ -50,7 +50,7 @@ column.skill_column{
 text.skill_title{
     font-size: 12px;
     color: #757575;
-    font-family: sans-serif;
+    font-family: "Raleway-Regular",sans-serif;
 }
 geometry_rect.geometry_box{
     background-color: #ff6666;
@@ -59,9 +59,9 @@ text.geometry_rect_title{
     padding: 6px 12px;
     font-size: 18px;
     color: #ffffff;
-    font-family: sans-serif;
+    font-family: "SourceSansPro-Regular",sans-serif;
 }
-bottom_line.border-bottom{
+bottom_line class.border-bottom{
     border-bottom: 1px solid #ff6666;
     width: 100%;
 }
@@ -70,42 +70,31 @@ table.education_wrapper{
     padding-left: 100px;
 }
 geometry_circle.course_circle{
-    size: 20px;
+
 }
 column.geometry_container{
-    width: 5%;
+    width:5%;
     padding: 2px;
+
 }
 text.course-title{
     color: #000000;
-    font-family: sans-serif;
+    font-family: "SourceSansPro-Regular",sans-serif;
     font-weight: bold;
     font-size: 15px;
     display: block;
 }
 text.course-college{
-    font-size: 13px;    
-    color: #757575;
-    font-family: Raleway-Regular;
+
 }
 text.course-duration{
     display: block;
     font-size: 12px;
     color: #000000;
-    font-family: sans-serif;
+    font-family: "Anton",sans-serif;
 }
 text.course-narration{
     font-size: 13px;
     color: #757575;
-    font-family: sans-serif;
-}
-text.course-university{
-    font-size: 13px;    
-    color: #757575;
-    font-family: Raleway-Regular;
-}
-table.course-achievement-title{
-    font-size: 12px;    
-    color: #757575;
-    font-family: Raleway-Regular;
+    font-family: "Raleway-Regular",sans-serif;
 }

@@ -1,0 +1,679 @@
+<resume>
+    <block>
+        <layout>
+            <id>a8a6fb4e15d3b70b689c82344fee113dd253768e</id>
+		    <user_id>c1c7925aa037092934d3aa9e357633d035b6098d</user_id>
+		    <template_identifier>1</template_identifier>
+		    <row_no>0</row_no>
+		    <col_no>null</col_no>
+		    <section_identifier>1</section_identifier>
+		    <content_source_id>null</content_source_id>
+		    <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+		    <creation_time>2018-04-25 05:32:08</creation_time>
+		    <last_modified_by> null</last_modified_by>
+		    <last_modified_time>null</last_modified_time>
+		    <is_deleted>0</is_deleted>
+		    <deleted_by>null</deleted_by>
+		    <deleted_time>null</deleted_time>
+        </layout>
+        <content>
+		    <full_name>Ronnie</full_name>
+		    <address>Prakash colony</address>
+		    <place>Bangalore, INDIA</place>
+		    <photo>null</photo>
+		    <brand_url>nfra.carmelsolutions.net\/lipsi\/brand\/grace</brand_url>
+        </content>
+    </block>
+
+    <block>
+         <layout>
+		    <id>955273492cce41513393eb448f805d3c11b68f5b</id>
+		    <user_id>c1c7925aa037092934d3aa9e357633d035b6098d</user_id>
+		    <template_identifier>1</template_identifier>
+		    <row_no>1</row_no>
+		    <col_no>null</col_no>
+		    <section_identifier>4</section_identifier>
+		    <content_source_id>99c52f88ad4362ae607b2a8d1ab605ee2dc7f7da</content_source_id>
+		    <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+		    <creation_time>2018-04-25 05:32:08</creation_time>
+		    <last_modified_by>null</last_modified_by>
+		    <last_modified_time>null</last_modified_time>
+		    <is_deleted>0</is_deleted>
+		    <deleted_by> null</deleted_by>
+		    <deleted_time>null</deleted_time>
+    	</layout>
+	    <content>
+	    	<id>99c52f88ad4362ae607b2a8d1ab605ee2dc7f7da</id>
+	    	<user_id>c1c7925aa037092934d3aa9e357633d035b6098d</user_id>
+		    <candidate_id>49f08ce104dd235091d4641ed8130f29be9d6a97</candidate_id>
+	    	<row_title>Summary Statement</row_title>
+	    	<row_narration>I am a software programmer with 2.5 years of experience. I have insider knowledge of application stack for retail business. With my proven skills in designing and developing mobile applications particularly on Android platform I can bring a lot of value and learning to the table.  I am dynamic and self-motivated with tons of energy and a big appetite for learning new things. I willingly assume responsibilities and am adaptable in any team.</row_narration>
+	    	<is_sample>1</is_sample>
+	    	<created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+	       <creation_time>2018-04-25 05:32:08</creation_time>
+	    	<last_modified_by>null</last_modified_by>
+	    	<last_modified_time>null</last_modified_time>
+		    <is_deleted>0</is_deleted>
+	    	<deleted_by>null</deleted_by>
+		    <deleted_time>null</deleted_time>
+    	</content>
+        </block>
+        <block>
+            <layout>
+		        <id>c1674235fe3006a37b98b67f887ca20d165edd0d</id>
+		        <user_id>c1c7925aa037092934d3aa9e357633d035b6098d</user_id>
+		        <template_identifier>1</template_identifier>
+		        <row_no>2</row_no>
+		        <col_no>null</col_no>
+		        <section_identifier>2</section_identifier>
+		        <content_source_id>null</content_source_id>
+		        <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+		        <creation_time>2018-04-25 05:32:08</creation_time>
+		        <last_modified_by>null</last_modified_by>
+	            <last_modified_time>null</last_modified_time>
+		        <is_deleted>0</is_deleted>
+		        <deleted_by>null</deleted_by>
+		        <deleted_time>null</deleted_time>
+        	</layout>
+	        <content>
+                <skills>
+                    <skill>
+                        <id>fc85a966c12157bf3fff936336e2da25c21a1b90</id>
+                        <user_id>c1c7925aa037092934d3aa9e357633d035b6098d</user_id>
+                        <candidate_id>49f08ce104dd235091d4641ed8130f29be9d6a97</candidate_id>
+                        <skill_title>Amazon Web Services (AWS)</skill_title>
+                        <self_rating>3</self_rating>
+                        <is_sample>1</is_sample>
+                        <display_sequence>1</display_sequence>
+                        <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                        <creation_time>2018-04-25 05:32:08</creation_time>
+                        <last_modified_by>null</last_modified_by>
+                        <last_modified_time>null</last_modified_time>
+                        <is_deleted>0</is_deleted>
+                        <deleted_by>null</deleted_by>
+                        <deleted_time>null</deleted_time>
+                    </skill>
+                    <skill>
+                        <id>956a45074f4c550dd3ba91c70e1a1a18915df021</id>
+                        <user_id>c1c7925aa037092934d3aa9e357633d035b6098d</user_id>
+                        <candidate_id>49f08ce104dd235091d4641ed8130f29be9d6a97</candidate_id>
+                        <skill_title>Node.js</skill_title>
+                        <self_rating>4</self_rating>
+                        <is_sample>1</is_sample>
+                        <display_sequence>2</display_sequence>
+                        <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                        <creation_time>2018-04-25 05:32:08</creation_time>
+                        <last_modified_by>null</last_modified_by>
+                        <last_modified_time>null</last_modified_time>
+                        <is_deleted>0</is_deleted>
+                        <deleted_by>null</deleted_by>
+                        <deleted_time>null</deleted_time>
+                    </skill>
+                    <skill>
+                        <candidate_id>49f08ce104dd235091d4641ed8130f29be9d6a97</candidate_id>
+                        <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                        <creation_time>2018-04-25 05:32:08</creation_time>
+                        <deleted_by null="true" />
+                        <deleted_time null="true" />
+                        <display_sequence>3</display_sequence>
+                        <id>a782add9a6b2bde5302b49214bac20d47496c2b4</id>
+                        <is_deleted>0</is_deleted>
+                        <is_sample>1</is_sample>
+                        <last_modified_by null="true" />
+                        <last_modified_time null="true" />
+                        <self_rating>4</self_rating>
+                        <skill_title>Android</skill_title>
+                        <user_id>c1c7925aa037092934d3aa9e357633d035b6098d</user_id>
+                    </skill>
+                    <skill>
+                        <candidate_id>49f08ce104dd235091d4641ed8130f29be9d6a97</candidate_id>
+                        <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                        <creation_time>2018-04-25 05:32:08</creation_time>
+                        <deleted_by null="true" />
+                        <deleted_time null="true" />
+                        <display_sequence>4</display_sequence>
+                        <id>c3cff3fd72f8e940818ee23017e984ad68725869</id>
+                        <is_deleted>0</is_deleted>
+                        <is_sample>1</is_sample>
+                        <last_modified_by null="true" />
+                        <last_modified_time null="true" />
+                        <self_rating>4</self_rating>
+                        <skill_title>AngularJS</skill_title>
+                        <user_id>c1c7925aa037092934d3aa9e357633d035b6098d</user_id>
+                    </skill>
+                    <skill>
+                        <candidate_id>49f08ce104dd235091d4641ed8130f29be9d6a97</candidate_id>
+                        <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                        <creation_time>2018-04-25 05:32:08</creation_time>
+                        <deleted_by null="true" />
+                        <deleted_time null="true" />
+                        <display_sequence>5</display_sequence>
+                        <id>41e3e28d773313b45f1aca0db54ee9d95da09a16</id>
+                        <is_deleted>0</is_deleted>
+                        <is_sample>1</is_sample>
+                        <last_modified_by null="true" />
+                        <last_modified_time null="true" />
+                        <self_rating>5</self_rating>
+                        <skill_title>PHP</skill_title>
+                        <user_id>c1c7925aa037092934d3aa9e357633d035b6098d</user_id>
+                    </skill>
+                </skills>
+            </content>
+      </block>
+      <block>
+            <layout>
+                <col_no null="true" />
+                <content_source_id null="true" />
+                <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                <creation_time>2018-04-25 05:32:08</creation_time>
+                <deleted_by null="true" />
+                <deleted_time null="true" />
+                <id>e70f057640d48672e687597204ff893a9dd975a4</id>
+                <is_deleted>0</is_deleted>
+                <last_modified_by null="true" />
+                <last_modified_time null="true" />
+                <row_no>3</row_no>
+                <section_identifier>3</section_identifier>
+                <template_identifier>1</template_identifier>
+                <user_id>c1c7925aa037092934d3aa9e357633d035b6098d</user_id>
+            </layout>
+            <content>
+                <years>
+                    <year>2017</year>>
+                    <year_event>
+                        <candidate_id>49f08ce104dd235091d4641ed8130f29be9d6a97</candidate_id>
+                        <college>Udacity</college>
+                        <course>Android Nano Degree</course>
+                        <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                        <creation_time>2018-04-25 05:32:08</creation_time>
+                        <deleted_by null="true" />
+                        <deleted_time null="true" />
+                        <end_month>12</end_month>
+                        <end_year>2017</end_year>
+                        <id>cb61a424413e479c15376c765cdf0c8ed85af815</id>
+                        <is_deleted>0</is_deleted>
+                        <is_sample>1</is_sample>
+                        <last_modified_by null="true" />
+                        <last_modified_time null="true" />
+                        <narration>I have learnt how to build a cloud-connected Android app, how to make it responsive, how to create amazing user experiences with rich media and publish it on Google Play. I also learnt how to create total user experience with home screen widgets, third-party libraries, and more. I also learnt how to deeply integrate rich media and test user interfaces.</narration>
+                        <pursuing>0</pursuing>
+                        <start_month>10</start_month>
+                        <start_year>2016</start_year>
+                        <timeline_event_identifier>1</timeline_event_identifier>
+                        <university>CO-CREATED BY GOOGLE</university>
+                        <user_id>c1c7925aa037092934d3aa9e357633d035b6098d</user_id>
+                        <achievements>
+                            <achievement>
+                                <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                <creation_time>2018-04-25 05:32:08</creation_time>
+                                <deleted_by null="true" />
+                                <deleted_time null="true" />
+                                <display_sequence>1</display_sequence>
+                                <education_id>cb61a424413e479c15376c765cdf0c8ed85af815</education_id>
+                                <id>af07e4ba6aa0e766fcd1e77def5949c1109834ee</id>
+                                <is_deleted>0</is_deleted>
+                                <is_sample>1</is_sample>
+                                <last_modified_by null="true" />
+                                <last_modified_time null="true" />
+                                <narration>Completed with highest distinction</narration>
+                            </achievement>
+                        </achievements>
+                        <assignment>
+                            <assignment_title>Popular Movies App</assignment_title>
+                            <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                            <creation_time>2018-04-25 05:32:08</creation_time>
+                            <deleted_by null="true" />
+                            <deleted_time null="true" />
+                            <education_id>cb61a424413e479c15376c765cdf0c8ed85af815</education_id>
+                            <id>ef6664ff3dd21fb33c43cdd57721fd18d1db56ef</id>
+                            <is_deleted>0</is_deleted>
+                            <is_sample>1</is_sample>
+                            <last_modified_by null="true" />
+                            <last_modified_time null="true" />
+                            <narration>Built a simple movies app that communicates with the internet and provides a responsive user experience. In this project, I fetch data from the Internet with the MovieDB API, used adapters and custom list layouts to populate list views, and incorporated libraries to simplify the code.</narration>
+                            <skills>
+                                <skill>
+                                    <assignment_id>ef6664ff3dd21fb33c43cdd57721fd18d1db56ef</assignment_id>
+                                    <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                    <creation_time>2018-04-25 05:32:08</creation_time>
+                                    <deleted_by null="true" />
+                                    <deleted_time null="true" />
+                                    <display_sequence>1</display_sequence>
+                                    <id>4330ea4271e0114038566c80640c30d82825c09f</id>
+                                    <is_deleted>0</is_deleted>
+                                    <is_sample>1</is_sample>
+                                    <last_modified_by null="true" />
+                                    <last_modified_time null="true" />
+                                    <skill_title>Retrofit</skill_title>
+                                </skill>
+                                <skill>
+                                    <assignment_id>ef6664ff3dd21fb33c43cdd57721fd18d1db56ef</assignment_id>
+                                    <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                    <creation_time>2018-04-25 05:32:08</creation_time>
+                                    <deleted_by null="true" />
+                                    <deleted_time null="true" />
+                                    <display_sequence>2</display_sequence>
+                                    <id>fd232e11c11be5c67dcc223225dd8d09e2ac27da</id>
+                                    <is_deleted>0</is_deleted>
+                                    <is_sample>1</is_sample>
+                                    <last_modified_by null="true" />
+                                    <last_modified_time null="true" />
+                                    <skill_title>RxJava</skill_title>
+                                </skill>
+                                <skill>
+                                    <assignment_id>ef6664ff3dd21fb33c43cdd57721fd18d1db56ef</assignment_id>
+                                    <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                    <creation_time>2018-04-25 05:32:08</creation_time>
+                                    <deleted_by null="true" />
+                                    <deleted_time null="true" />
+                                    <display_sequence>3</display_sequence>
+                                    <id>34c416b5c1d05094e6618de1c97beaaae576008e</id>
+                                    <is_deleted>0</is_deleted>
+                                    <is_sample>1</is_sample>
+                                    <last_modified_by null="true" />
+                                    <last_modified_time null="true" />
+                                    <skill_title>Material Design</skill_title>
+                                </skill>
+                                <skill>
+                                     <assignment_id>ef6664ff3dd21fb33c43cdd57721fd18d1db56ef</assignment_id>
+                                    <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                    <creation_time>2018-04-25 05:32:08</creation_time>
+                                    <deleted_by null="true" />
+                                    <deleted_time null="true" />
+                                    <display_sequence>4</display_sequence>
+                                    <id>004e8d51653584a9ce2abc22c1757875b24d544a</id>
+                                    <is_deleted>0</is_deleted>
+                                    <is_sample>1</is_sample>
+                                    <last_modified_by null="true" />
+                                    <last_modified_time null="true" />
+                                    <skill_title>Android SDK</skill_title>
+                                </skill>
+                            </skills>
+                        </assignment>                    
+                    </year_event>
+                    <year>2014</year>
+                    <year_event>
+                    <candidate_id>49f08ce104dd235091d4641ed8130f29be9d6a97</candidate_id>
+                    <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                    <creation_time>2018-04-25 05:32:08</creation_time>
+                    <deleted_by null="true" />
+                    <deleted_time null="true" />
+                    <end_month null="true" />
+                    <end_year null="true" />
+                    <id>ad97f74e190b82392514103afe65d62695e1ab41</id>
+                    <is_deleted>0</is_deleted>
+                    <is_sample>1</is_sample>
+                    <is_sample_label>Yes</is_sample_label>
+                    <last_modified_by null="true" />
+                    <last_modified_time null="true" />
+                    <narration>I am working in a team of developers on diverse projects. I collaborate with other programmers to design and implement features, produce well-organized, and documented source code. I am also involved in debugging existing source code and polishing feature sets.</narration>
+                    <organization>Carmel Software Solutions</organization>
+                    <position>Software Engineer</position>
+                    <start_month>7</start_month>
+                    <start_year>2014</start_year>
+                    <still_working_here>1</still_working_here>
+                    <still_working_here_label>Yes</still_working_here_label>
+                    <timeline_event_identifier>0</timeline_event_identifier>
+                    <user_id>c1c7925aa037092934d3aa9e357633d035b6098d</user_id>
+                    <assignment>
+                        <assignment_title>Greenz</assignment_title>
+                        <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                        <creation_time>2018-04-25 05:32:08</creation_time>
+                        <deleted_by null="true" />
+                        <deleted_time null="true" />
+                        <end_month null="true" />
+                        <end_year null="true" />
+                        <experience_id>ad97f74e190b82392514103afe65d62695e1ab41</experience_id>
+                        <id>d26a342b12e1b4919ecd8fe0704e69403f9dde7f</id>
+                        <is_deleted>0</is_deleted>
+                        <is_sample>1</is_sample>
+                        <last_modified_by null="true" />
+                        <last_modified_time null="true" />
+                        <media null="true" />
+                        <narration>&lt;p&gt;This is an end to end solution for retail business handing perishable goods. Due to the perishable nature of the goods, the business requires meticulous planning, sourcing, procuring and distribution in a near real-time scenario. The system we have developed can seamlessly integrate all these processes and deliver incredible productivity.&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;I have designed the database for Point of Sale application&lt;/li&gt;&lt;li&gt;I developed screens and the underlying business logic for the Point of Sale application on Qt&lt;/li&gt;&lt;li&gt;I designed and developed the complete royalty program module for generating promo codes, redemption and onboarding memberships&lt;/li&gt;&lt;li&gt;I designed the architecture for synchronizing data between PoS systems and the server using a middleware called Apache QPid. I later transitioned from QPid to AWS using Node.js&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;</narration>
+                        <skills>
+                            <skill>
+                                <assignment_id>d26a342b12e1b4919ecd8fe0704e69403f9dde7f</assignment_id>
+                                <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                <creation_time>2018-04-25 05:32:08</creation_time>
+                                <deleted_by null="true" />
+                                <deleted_time null="true" />
+                                <display_sequence>1</display_sequence>
+                                <id>8609231abdf1e5d4ab10da183fab5e00f97bf313</id>
+                                <is_deleted>0</is_deleted>
+                                <is_sample>1</is_sample>
+                                <last_modified_by null="true" />
+                                <last_modified_time null="true" />
+                                <skill_title>Javascript</skill_title>
+                            </skill>
+                            <skill>
+                                <assignment_id>d26a342b12e1b4919ecd8fe0704e69403f9dde7f</assignment_id>
+                                <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                <creation_time>2018-04-25 05:32:08</creation_time>
+                                <deleted_by null="true" />
+                                <deleted_time null="true" />
+                                <display_sequence>2</display_sequence>
+                                <id>f1257d1fe3fb3a86f5942f8649a6f12247e91730</id>
+                                <is_deleted>0</is_deleted>
+                                <is_sample>1</is_sample>
+                                <last_modified_by null="true" />
+                                <last_modified_time null="true" />
+                                <skill_title>Node.js</skill_title>
+                            </skill>
+                            <skill>
+                                <assignment_id>d26a342b12e1b4919ecd8fe0704e69403f9dde7f</assignment_id>
+                                <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                <creation_time>2018-04-25 05:32:08</creation_time>
+                                <deleted_by null="true" />
+                                <deleted_time null="true" />
+                                <display_sequence>3</display_sequence>
+                                <id>cac013f1bbe6585472e5c759a070e25ddc162d7b</id>
+                                <is_deleted>0</is_deleted>
+                                <is_sample>1</is_sample>
+                                <last_modified_by null="true" />
+                                <last_modified_time null="true" />
+                                <skill_title>PHP</skill_title>
+                            </skill>
+                            <skill>
+                                <assignment_id>d26a342b12e1b4919ecd8fe0704e69403f9dde7f</assignment_id>
+                                <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                <creation_time>2018-04-25 05:32:08</creation_time>
+                                <deleted_by null="true" />
+                                <deleted_time null="true" />
+                                <display_sequence>4</display_sequence>
+                                <id>07f35bffb8de8fc0d4113e445bb8fe6f9f0ebf67</id>
+                                <is_deleted>0</is_deleted>
+                                <is_sample>1</is_sample>
+                                <last_modified_by null="true" />
+                                <last_modified_time null="true" />
+                                <skill_title>Ext JS</skill_title>
+                            </skill>
+                            <skill>
+                                <assignment_id>d26a342b12e1b4919ecd8fe0704e69403f9dde7f</assignment_id>
+                                <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                <creation_time>2018-04-25 05:32:08</creation_time>
+                                <deleted_by null="true" />
+                                <deleted_time null="true" />
+                                <display_sequence>5</display_sequence>
+                                <id>5a8fccda8a1bc24ea23c122cede73ca3ef170c57</id>
+                                <is_deleted>0</is_deleted>
+                                <is_sample>1</is_sample>
+                                <last_modified_by null="true" />
+                                <last_modified_time null="true" />
+                                <skill_title>Apache Qpid</skill_title>
+                            </skill>
+                            <skill>
+                                <assignment_id>d26a342b12e1b4919ecd8fe0704e69403f9dde7f</assignment_id>
+                                <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                <creation_time>2018-04-25 05:32:08</creation_time>
+                                <deleted_by null="true" />
+                                <deleted_time null="true" />
+                                <display_sequence>6</display_sequence>
+                                <id>408b8dff58e44e9ffc41a766e230fdc6f8f477cf</id>
+                                <is_deleted>0</is_deleted>
+                                <is_sample>1</is_sample>
+                                <last_modified_by null="true" />
+                                <last_modified_time null="true" />
+                                <skill_title>Qt</skill_title>
+                            </skill>
+                            <skill>
+                                <assignment_id>d26a342b12e1b4919ecd8fe0704e69403f9dde7f</assignment_id>
+                                <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                <creation_time>2018-04-25 05:32:08</creation_time>
+                                <deleted_by null="true" />
+                                <deleted_time null="true" />
+                                <display_sequence>7</display_sequence>
+                                <id>75eec1d9fd6c062288126c4fe5a7e5cb8126da3e</id>
+                                <is_deleted>0</is_deleted>
+                                <is_sample>1</is_sample>
+                                <last_modified_by null="true" />
+                                <last_modified_time null="true" />
+                                <skill_title>JasperReports</skill_title>
+                            </skill>
+                        </skills>
+                    </assignment>
+                    </year_event>
+
+                    <year>2013</year>
+                    <year_event>
+                        <candidate_id>49f08ce104dd235091d4641ed8130f29be9d6a97</candidate_id>
+                        <college>B. V. Bhoomaraddi College of Engineering &amp; Technology</college>
+                        <course>Bachelor of Engineering, Electronics &amp; Communication</course>
+                        <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                        <creation_time>2018-04-25 05:32:08</creation_time>
+                        <deleted_by null="true" />
+                        <deleted_time null="true" />
+                        <end_month>8</end_month>
+                        <end_year>2013</end_year>
+                        <id>3d99d62e40f7b5025e1c6c18242c0946066842b7</id>
+                        <is_deleted>0</is_deleted>
+                        <is_sample>1</is_sample>
+                        <last_modified_by null="true" />
+                        <last_modified_time null="true" />
+                        <narration>Electronic communications engineering is the utilization of science and math applied to practical problems in the field of communications. I studied topics such as wireless, digital, data and fiber optic communications.</narration>
+                        <pursuing>0</pursuing>
+                        <start_month>6</start_month>
+                        <start_year>2009</start_year>
+                        <timeline_event_identifier>1</timeline_event_identifier>
+                        <university>Visvesvaraya Technological University</university>
+                        <user_id>c1c7925aa037092934d3aa9e357633d035b6098d</user_id>
+                        <achievements>
+                            <achievement>
+                                <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                <creation_time>2018-04-25 05:32:08</creation_time>
+                                <deleted_by null="true" />
+                                <deleted_time null="true" />
+                                <display_sequence>1</display_sequence>
+                                <education_id>3d99d62e40f7b5025e1c6c18242c0946066842b7</education_id>
+                                <id>dd62b89210915a2f3cc1b671bdd594f5923e3e48</id>
+                                <is_deleted>0</is_deleted>
+                                <is_sample>1</is_sample>
+                                <last_modified_by null="true" />
+                                <last_modified_time null="true" />
+                                <narration>6.89 CGPA</narration>
+                            </achievement>
+                            <achievement>
+                                <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                <creation_time>2018-04-25 05:32:08</creation_time>
+                                <deleted_by null="true" />
+                                <deleted_time null="true" />
+                                <display_sequence>2</display_sequence>
+                                <education_id>3d99d62e40f7b5025e1c6c18242c0946066842b7</education_id>
+                                <id>f8d7e02621dace4989bda01db64f17c24772c9d5</id>
+                                <is_deleted>0</is_deleted>
+                                <is_sample>1</is_sample>
+                                <last_modified_by null="true" />
+                                <last_modified_time null="true" />
+                                <narration>Active member of Institute of Electronics and Telecommunication Engineers.</narration>
+                            </achievement>
+                        </achievements>
+                        <assignment>
+                            <assignment_title>IOT Smart Mirror With News &amp; Temperature</assignment_title>
+                            <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                            <creation_time>2018-04-25 05:32:08</creation_time>
+                            <deleted_by null="true" />
+                            <deleted_time null="true" />
+                            <education_id>3d99d62e40f7b5025e1c6c18242c0946066842b7</education_id>
+                            <id>a38dcce22ad65db94205ca141c15a585ba6882d8</id>
+                            <is_deleted>0</is_deleted>
+                            <is_sample>1</is_sample>
+                            <last_modified_by null="true" />
+                            <last_modified_time null="true" />
+                            <narration>A smart mirror is part of the connected world where we would be able to see news, temperature, weather and more just while looking and grooming in front of a mirror. Our system uses a raspberry pi based processor board along with display and IOT based circuitry and temperature sensor interfaced together. We use raspberry pi to connect with Internet using IOT circuit through the use of a wifi module. This allows us to receive data through the IOT platform. We use IOTGecko in order to connect our system to the Internet and get news feeds. The temperature sensor interfaced on the circuit is used to read temperature and display it on the mirror fitted display. Thus we demonstrate a futuristic IOT smart mirror with news and temperature display.</narration>       
+                            <skills>
+                            <skill>
+                                <assignment_id>a38dcce22ad65db94205ca141c15a585ba6882d8</assignment_id>
+                                <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                <creation_time>2018-04-25 05:32:08</creation_time>
+                                <deleted_by null="true" />
+                                <deleted_time null="true" />
+                                <display_sequence>1</display_sequence>
+                                <id>49ebe206cf8487e42d1264689ddaa3c985ffdb14</id>
+                                <is_deleted>0</is_deleted>
+                                <is_sample>1</is_sample>
+                                <last_modified_by null="true" />
+                                <last_modified_time null="true" />
+                                <skill_title>Raspberry Pi</skill_title>
+                            </skill>
+                            <skill>
+                                <assignment_id>a38dcce22ad65db94205ca141c15a585ba6882d8</assignment_id>
+                                <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                <creation_time>2018-04-25 05:32:08</creation_time>
+                                <deleted_by null="true" />
+                                <deleted_time null="true" />
+                                <display_sequence>2</display_sequence>
+                                <id>65cee83c1ca1d2dc8c012738c7292574a460850e</id>
+                                <is_deleted>0</is_deleted>
+                                <is_sample>1</is_sample>
+                                <last_modified_by null="true" />
+                                <last_modified_time null="true" />
+                                <skill_title>Python</skill_title>
+                            </skill>
+                            <skill>
+                                <assignment_id>a38dcce22ad65db94205ca141c15a585ba6882d8</assignment_id>
+                              <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                              <creation_time>2018-04-25 05:32:08</creation_time>
+                              <deleted_by null="true" />
+                              <deleted_time null="true" />
+                              <display_sequence>3</display_sequence>
+                              <id>72d0d4e9921db0fde849ff08a74877172b1d386b</id>
+                              <is_deleted>0</is_deleted>
+                              <is_sample>1</is_sample>
+                              <last_modified_by null="true" />
+                              <last_modified_time null="true" />
+                              <skill_title>IOTGecko</skill_title>
+                            </skill>
+                            </skills>
+                        </assignment>
+                    </year_event>
+                    <year>2009</year>
+                    <year_event>
+                        <assignment null="true" />
+                        <candidate_id>49f08ce104dd235091d4641ed8130f29be9d6a97</candidate_id>
+                        <college>Kendriya Vidyala I - Baroda</college>
+                        <course>12th</course>
+                        <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                        <creation_time>2018-04-25 05:32:08</creation_time>
+                        <deleted_by null="true" />
+                        <deleted_time null="true" />
+                        <end_month>3</end_month>
+                        <end_year>2009</end_year>
+                        <id>e33813e6201cf026ac5e87a5cc3060a6b2868f48</id>
+                        <is_deleted>0</is_deleted>
+                        <is_sample>1</is_sample>
+                        <last_modified_by null="true" />
+                        <last_modified_time null="true" />
+                        <narration />
+                        <pursuing>0</pursuing>
+                        <start_month null="true" />
+                        <start_year null="true" />
+                        <timeline_event_identifier>1</timeline_event_identifier>
+                        <university>C.B.S.E. Board</university>
+                        <user_id>c1c7925aa037092934d3aa9e357633d035b6098d</user_id>
+                        <achievements>
+                            <achievement>
+                                <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                <creation_time>2018-04-25 05:32:08</creation_time>
+                                <deleted_by null="true" />
+                                <deleted_time null="true" />
+                                <display_sequence>1</display_sequence>
+                                <education_id>e33813e6201cf026ac5e87a5cc3060a6b2868f48</education_id>
+                                <id>441d792bb082d7941de1a85d36b804d9dbab4b5d</id>
+                                <is_deleted>0</is_deleted>
+                                <is_sample>1</is_sample>
+                                <last_modified_by null="true" />
+                                <last_modified_time null="true" />
+                                <narration>Overall 71%</narration>
+                            </achievement>
+                            <achievement>
+                                <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                <creation_time>2018-04-25 05:32:08</creation_time>
+                                <deleted_by null="true" />
+                                <deleted_time null="true" />
+                                <display_sequence>3</display_sequence>
+                                <education_id>e33813e6201cf026ac5e87a5cc3060a6b2868f48</education_id>
+                                <id>d538c353f91d19426da0e793ff0cd32c2a1483cb</id>
+                                <is_deleted>0</is_deleted>
+                                <is_sample>1</is_sample>
+                                <last_modified_by null="true" />
+                                <last_modified_time null="true" />
+                                <narration>PHYSICS - 73</narration>
+                            </achievement>
+                            <achievement>
+                                <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                <creation_time>2018-04-25 05:32:08</creation_time>
+                                <deleted_by null="true" />
+                                <deleted_time null="true" />
+                                <display_sequence>4</display_sequence>
+                                <education_id>e33813e6201cf026ac5e87a5cc3060a6b2868f48</education_id>
+                                <id>c7081482cbf44aabf409f94eb297dea6af2d2912</id>
+                                <is_deleted>0</is_deleted>
+                                <is_sample>1</is_sample>
+                                <last_modified_by null="true" />
+                                <last_modified_time null="true" />
+                                <narration>MATH - 77</narration>
+                            </achievement>
+                            <achievement>
+                                <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                <creation_time>2018-04-25 05:32:08</creation_time>
+                                <deleted_by null="true" />
+                                <deleted_time null="true" />
+                                <display_sequence>5</display_sequence>
+                                <education_id>e33813e6201cf026ac5e87a5cc3060a6b2868f48</education_id>
+                                <id>b1821bc61b15d1b8eb4aac04808ac53ed0223326</id>
+                                <is_deleted>0</is_deleted>
+                                <is_sample>1</is_sample>
+                                <last_modified_by null="true" />
+                                <last_modified_time null="true" />
+                                <narration>National level hockey</narration>
+                            </achievement>
+                            
+                        </achievements>
+                    </year_event>
+                    <year>2007</year>
+                    <year_event>
+                        <candidate_id>49f08ce104dd235091d4641ed8130f29be9d6a97</candidate_id>
+                        <college>Kendriya Vidyalaya - Baroda</college>
+                        <course>10th</course>
+                        <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                        <creation_time>2018-04-25 05:32:08</creation_time>
+                        <deleted_by null="true" />
+                        <deleted_time null="true" />
+                        <end_month>3</end_month>
+                        <end_year>2007</end_year>
+                        <id>ccfa77b4ee9369f3be50e6374ff2eeaab21a2c06</id>
+                        <is_deleted>0</is_deleted>
+                        <is_sample>1</is_sample>
+                        <last_modified_by null="true" />
+                        <last_modified_time null="true" />
+                        <narration />
+                        <pursuing>0</pursuing>
+                        <start_month null="true" />
+                        <start_year null="true" />
+                        <timeline_event_identifier>1</timeline_event_identifier>
+                        <university>C.B.S.E. Board</university>
+                        <user_id>c1c7925aa037092934d3aa9e357633d035b6098d</user_id>
+                        <achievements>
+                            <achievement>
+                                <created_by>dbcfcbb2a28ec3984bd070a1de39170dee2d74da</created_by>
+                                <creation_time>2018-04-25 05:32:08</creation_time>
+                                <deleted_by null="true" />
+                                <deleted_time null="true" />
+                                <display_sequence>1</display_sequence>
+                                <education_id>ccfa77b4ee9369f3be50e6374ff2eeaab21a2c06</education_id>
+                                <id>acc329ed8e30e57e82f0dc966946c40f6afa79e2</id>
+                                <is_deleted>0</is_deleted>
+                                <is_sample>1</is_sample>
+                                <last_modified_by null="true" />
+                                <last_modified_time null="true" />
+                                <narration>Overall 63.48%</narration>
+                            </achievement>
+                        </achievements>
+                        <assignment null="true" />
+                    </year_event>
+                </years>
+            </content>
+            
+      </block>
+
+</resume>

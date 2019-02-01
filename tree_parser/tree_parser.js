@@ -1,12 +1,11 @@
 var fs= require("fs");
 var createStream=fs.createWriteStream("t_lipsi.json",{flag:'a'});
-var data,i=0,close_with_open=0,tag=null;
+var data,i=0,close_with_open=0,tag=null,height=0;
 var fetch_style_details=function(tag,id){
     var style_properties='';
     var req_line=tag+'.'+id+'{',flag=0  
     var line=fs.readFileSync("lipsi.css");
     line=(line.toLocaleString()).split(/\n/g)
-    //console.log(req_line)
     for(var c=0;c<line.length;c++){
         lineCSS=line[c]
         if(flag==1&lineCSS!='}'){
@@ -28,7 +27,7 @@ get_row_data=function(text){
     var fs = require("fs");
     var contents = fs.readFileSync("char_width.json");
     var jsonContent = JSON.parse(contents);
-    var row_sum=0,starting_point=0;
+    var row_sum=0,starting_point=0,line_height=40;
     var insert_text=[],line="";
     for(var i=0;i<text.length;i++){
         for(var c=0;c in jsonContent.special_char;c++){             //Till the end of json
@@ -48,7 +47,6 @@ get_row_data=function(text){
                 //if last row
                 line+=text.slice(starting_point,i+1)
                 insert_text.push(line)
-                //console.log("HELLLLLLLLLO",insert_text)
             }
             else{
                 if(text[i+1]!=' '){	
@@ -60,14 +58,20 @@ get_row_data=function(text){
                 }
                 row_sum=0;
                 insert_text.push(line)
-                console.log("HELLLLLLLLLO",insert_text,line)
                 line="";
                 starting_point=i;
             }
         }
     }
-    data+=',"data":'+insert_text+'"';
-        console.log("HIIIIIIIII",insert_text)
+    data+=',"data":{';
+    insert_text[0]=insert_text[0].slice(1,insert_text[0].length)
+    for(var d=0;d<insert_text.length;d++){
+        data+='"'+d+'":"'+insert_text[d]+'",';
+    }
+    console.log("INSERT TEXTTTT",insert_text)
+    data=data.slice(0,data.length-1)
+    data+='}'
+    height=insert_text.length*line_height;
 }
 var get_element_properties=function(){
     if(res[i].endsWith('>'))
@@ -103,19 +107,15 @@ var get_element_properties=function(){
                     res[j+2]=res[j+2].slice(1,res[j+2].length-2)
                     data+=',"'+res[j]+'":"'+res[j+2]+'"'
                 }
+                height=34;
             }
         }
         if(tag=="text"){
             var insert_line='"';
             for(r=i+1;r<res.length-1;r++){
-                console.log("hii")
                 insert_line=insert_line+" "+res[r];
             }
-            console.log(insert_line,res.length,r)
             get_row_data(insert_line)
-            // data+=',"data":'+insert_line+'"'
-            //  var Row=require("./text_parser.js")
-            //  //var r = new Row();
             i=r-1;
         }
         else
@@ -125,12 +125,14 @@ var get_element_properties=function(){
 const Tree = require('./tree.js');
 var file_data=fs.readFileSync("t_lipsi.html")
 let tree = new Tree();
+var root;
     var file_data=(file_data.toString()).replace(/\n/g,",")
     file_data=(file_data.toString()).replace(/\t/g,"")
     file_data=file_data.split(",")
     var res
     for(var line=0;line<file_data.length;line++){
     res=file_data[line]
+    height=0;
     res=res.split(" ")
     for(i=0;i<res.length;i++){
         if(res[i]=='<?xml'){
@@ -148,11 +150,10 @@ let tree = new Tree();
         }
         else if(res[i].startsWith('<')){
             get_element_properties()
-            tree.insert(data+"}",tag)
-            var root = tree.getRootNode();
+            data+=',"node_height":"'+height+'"';
+            tree.insert(data+"}",tag,height)
             if(close_with_open==1){                 //tags which are closing in the same line where they opened
                 var current=tree.getCurrentNode();
-                root=tree.getRootNode()
                 tree.close_tag(current,tag)
                 close_with_open=0
             }
@@ -160,3 +161,6 @@ let tree = new Tree();
     }   
    //tree.display_tree(root)
 }
+tree.calculate_heightTree(root)
+height_of_tree=tree.get_height();
+console.log("height of the treee is",height_of_tree)

@@ -1,0 +1,290 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+-webkit-box-sizing: border-box;	
+}
+
+body {
+
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+
+}
+
+body, html{
+position: relative;
+
+height: 100%;
+
+padding: 0;
+
+margin: 0;	
+}
+
+div.winter-timeline-panel {
+    width: 100%;
+    margin: auto;
+    display: block;
+    background-color: #f4f4f4;
+	padding: 32px;
+}
+
+div.template-single-panel {
+    display: block;
+    margin-bottom: 4vh;
+}
+div.row-btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    border-right: 1px solid #cccccc;
+}
+
+div.row-btn-wrapper div.btn-panel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+}
+button.btn-iButton {
+    background: none;
+    box-shadow: none;
+    border: none;
+    display: block;
+    margin: 0;
+    padding: 6px;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+}
+button.btn-iButton.tool span img {
+    height: auto !important;
+	width: 16px;
+	margin: 0 2px;
+	vertical-align: middle;
+	border: 0;
+}
+
+div.under-edit-mode div.template-single-panel > div.panel-box {
+    padding: 12px;
+    /*border: 1px solid #cccccc;*/
+}
+
+
+div.template-three div.profile-img-wrapper img {
+    width: 100px;
+    height: 100px;
+}
+div.template-three p.user-full-name {
+    font-size: 32px;
+}
+div.template-three p.user-full-name {
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-family: "SourceSansPro-Regular",sans-serif;
+}
+div.template-three div.profile-panel p.address, div.template-three div.profile-panel p.place {
+    color: #ffffff;
+    text-align: center;
+    display: none;
+    font-size: 12px;
+    font-family: "SourceSansPro-Regular",sans-serif;
+	line-height: 1.2;
+	word-wrap: break-word;
+	max-width: 100%;
+	word-break: break-all;
+}
+
+div.skill-main-panel {
+    width: 80%;
+}
+
+div.template-three div.skill-panel-wrapper {
+    width: 100%;
+}
+div.skill-row div.skill-row-column-title-wrapper {
+    width: 50%;
+}
+div.skill-row div.skill-row-column-rating-panel {
+    width: 50%;
+}
+
+/*
+div.skill-row div.skill-row-column-option-wrapper {
+    width: 40%;
+}
+*/
+
+div.star-rating-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button.btn-iButton > span:first-child {
+    display: flex;
+    align-items: center;
+}
+
+div.template-three p.narrative-title {
+
+    font-size: 16px;
+
+}
+
+
+
+div.winter-timeline-panel div p {
+
+    line-height: 1.2;
+    word-wrap: break-word;
+    max-width: 100%;
+
+}
+
+
+
+div.template-three p.education-panel-title, div.template-three p.experience-panel-title, div.template-three p.assignment-panel-title {
+
+    color: #ffffff;
+    font-family: "SourceSansPro-Regular",sans-serif;
+
+}
+
+div.template-three p.education-panel-title, div.template-three p.experience-panel-title, div.template-three p.assignment-panel-title {
+
+    font-size: 18px;
+
+}
+
+div.template-three p.org-title, div.template-three p.course-title {
+    font-size: 15px;
+}
+div.template-three p.course-title {
+
+    color: #000000;
+    font-family: "SourceSansPro-Regular",sans-serif;
+    font-weight: bold;
+
+}
+
+div.template-three p.assignment-narration, div.template-three p.org-position, div.template-three p.org-narration, div.template-three p.course-course, div.template-three p.course-college, div.template-three p.course-narration, div.template-three p.course-university {
+
+    font-size: 13px;
+
+}
+div.template-three p.course-course, div.template-three p.course-college, div.template-three p.course-narration, div.template-three p.course-university {
+
+    color: #757575;
+    font-family: "Raleway-Regular",sans-serif;
+
+}
+
+
+div.template-three p.course-achievement-title,div.template-three table.course-achievement-title, div.template-three p.assignment-duration, div.template-three p.org-duration, div.template-three p.course-duration, div.template-three p.assignment-skill-title, div.template-three td.assignment-skill-title{
+
+    font-size: 12px;
+
+}
+
+div.template-three p.course-achievement-title,div.template-three table.course-achievement-title, div.template-three p.assignment-narration, div.template-three p.org-position, div.template-three p.org-narration, div.template-three p.assignment-skill-title,div.template-three td.assignment-skill-title {
+
+    color: #757575;
+    font-family: "Raleway-Regular",sans-serif;
+
+}
+
+div.template-three p.course-achievement-title,div.template-three table.course-achievement-title, div.template-three p.assignment-duration, div.template-three p.org-duration, div.template-three p.course-duration, div.template-three p.assignment-skill-title,div.template-three td.assignment-skill-title {
+
+    font-size: 12px;
+
+}
+
+div.template-three p.course-duration {
+
+    color: #000000;
+    font-family: "Anton",sans-serif;
+
+}
+
+div.template-three p.assignment-title {
+
+    font-size: 15px;
+
+}
+
+div.template-three p.assignment-title {
+
+    color: #000000;
+    font-weight: bold;
+    font-family: "SourceSansPro-Regular",sans-serif;
+
+}
+
+div.template-three p.assignment-narration, div.template-three p.org-position, div.template-three p.org-narration, div.template-three p.course-course, div.template-three p.course-college, div.template-three p.course-narration, div.template-three p.course-university {
+
+    font-size: 13px;
+
+}
+
+div.template-three p.course-achievement-title,div.template-three table.course-achievement-title, div.template-three p.assignment-narration, div.template-three p.org-position, div.template-three p.org-narration, div.template-three p.assignment-skill-title,div.template-three td.assignment-skill-title {
+
+    color: #757575;
+    font-family: "Raleway-Regular",sans-serif;
+
+}
+
+div.template-three p.org-title, div.template-three p.course-title {
+
+    font-size: 15px;
+
+}
+
+div.template-three p.org-title {
+
+    font-weight: bold;
+    color: #000000;
+    font-family: "SourceSansPro-Regular",sans-serif;
+
+}
+
+div.template-three p.course-achievement-title,div.template-three table.course-achievement-title, div.template-three p.assignment-duration, div.template-three p.org-duration, div.template-three p.course-duration, div.template-three p.assignment-skill-title,div.template-three td.assignment-skill-title {
+
+    font-size: 12px;
+
+}
+div.template-three p.assignment-duration, div.template-three p.org-duration {
+
+    color: #000000;
+    font-family: "Anton",sans-serif;
+
+}
+
+div.assignment-narration-panel ul {
+	color: #757575;
+	font-family: "Raleway-Regular",sans-serif;	
+	font-size: 13px;
+}
+
+
+p {
+	margin: 0;
+    word-break: break-all;
+	font-family: "SourceSansPro-Regular",sans-serif;
+
+}
+
+img{
+	vertical-align: middle;
+	border: 0;
+}
